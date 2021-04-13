@@ -1,4 +1,4 @@
-<p align="center"><a href="https://https://www.cascadesarchives.com/" target="_blank"><img src="private\resources\logo\arc_cas_historical-archives.svg" width="400"></a></p>
+<p align="center"><a href="https://https://www.cascadesarchives.com/" target="_blank"><img src="storage\app\private\resources\logo\arc_cas_historical-archives.svg" width="400"></a></p>
 
 ## About the Cascades Region Historical Archives
 
