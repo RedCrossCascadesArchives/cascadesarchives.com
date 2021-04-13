@@ -14,6 +14,46 @@ module.exports = {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'red-cross-gray': '#6e6f71',
+                'red-cross-red': {
+                    DEFAULT: '#EA2923',
+                    '50': '#FEF5F5',
+                    '100': '#FCDEDD',
+                    '200': '#F7B1AF',
+                    '300': '#F38480',
+                    '400': '#EE5652',
+                    '500': '#EA2923',
+                    '600': '#C71813',
+                    '700': '#98130F',
+                    '800': '#6A0D0A',
+                    '900': '#3B0706'
+                },
+                'red-cross-sand': {
+                    50: '#FBFBFA',
+                    100: '#F8F7F5',
+                    200: '#EDEAE5',
+                    300: '#E1DDD6',
+                    400: '#CBC4B7',
+                    500: '#B5AA98',
+                    600: '#A39989',
+                    700: '#6D665B',
+                    800: '#514D44',
+                    900: '#36332E',
+                },
+                'red-cross-khaki': {
+                    50: '#FEFDFB',
+                    100: '#FCFBF7',
+                    200: '#F8F5EA',
+                    300: '#F3EFDE',
+                    400: '#EAE3C5',
+                    500: '#E1D7AC',
+                    600: '#CBC29B',
+                    700: '#878167',
+                    800: '#65614D',
+                    900: '#444134',
+                },
+            }
         },
     },
 
