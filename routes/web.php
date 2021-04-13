@@ -19,10 +19,20 @@ Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
     ]);
-});
+})->name('home');
+
+route::get('/archives', function () {
+    return Inertia::render('Welcome');
+})->name('archives');
+
+route::get('/lines-of-service', function () {
+    return Inertia::render('Welcome');
+})->name('lins_of_service');
+
+route::get('/about', function () {
+    return Inertia::render('Welcome');
+})->name('about');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
