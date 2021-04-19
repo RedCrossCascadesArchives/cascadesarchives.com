@@ -8,14 +8,25 @@ module.exports = {
         './resources/views/**/*.blade.php',
         './resources/js/**/*.vue',
     ],
-
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                'red-cross-gray': '#6e6f71',
+                'red-cross-gray': {
+                    DEFAULT: '#6E6F71',
+                    '50': '#E2E2E3',
+                    '100': '#D5D5D6',
+                    '200': '#BBBCBD',
+                    '300': '#A1A2A4',
+                    '400': '#87888B',
+                    '500': '#6E6F71',
+                    '600': '#555657',
+                    '700': '#3C3C3D',
+                    '800': '#232323',
+                    '900': '#09090A'
+                },
                 'red-cross-red': {
                     DEFAULT: '#EA2923',
                     '50': '#FEF5F5',
@@ -59,7 +70,7 @@ module.exports = {
 
     variants: {
         extend: {
-            opacity: ['disabled'],
+            //opacity: ['disabled'],
         },
     },
 

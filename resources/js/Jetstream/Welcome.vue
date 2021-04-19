@@ -18,6 +18,9 @@
         </div>
 
         <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
+            <div class="p-6 md:col-span-2">
+                <div>The Archives</div> 
+            </div>
             <div class="p-6">
                 <div class="flex items-center">
                     <svg class="h-6" viewBox="0 0 44.568 44.567"><polygon points="44.568 14.86 29.707 14.857 29.711 0 14.856 0 14.856 14.857 0 14.857 0 29.711 14.856 29.711 14.856 44.567 29.707 44.567 29.707 29.711 44.568 29.711 44.568 14.86" fill="#ed1c24"/></svg>

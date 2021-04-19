@@ -30,9 +30,13 @@ route::get('/lines-of-service', function () {
     return Inertia::render('Welcome');
 })->name('lins_of_service');
 
-route::get('/about', function () {
+route::get('/timeline', function () {
     return Inertia::render('Welcome');
-})->name('about');
+})->name('timeline');
+
+route::get('/history', function () {
+    return Inertia::render('Welcome');
+})->name('history');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
